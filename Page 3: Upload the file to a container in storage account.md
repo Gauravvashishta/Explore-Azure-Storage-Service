@@ -48,11 +48,6 @@ You can download a block blob to display in the browser or save to your local fi
 
     ![](./Images/selectblob.png)
 
-2. Right-click the blob you want to download, and select **Download.**
+2. Click the **Download** to download the blob file. You can download it in your virtual machine and verify it has the same content file which you uploaded earlier.
 
     ![](./Images/downloadblob.png)
-    
- 
-
-
-
