@@ -32,10 +32,8 @@ It will take few minutes to deploy the storage account.
 
     ![](./Images/go-to-resource.png)
   
-1. Click the Containers from Overview blade of teh storage account. 
+1. Click the **Containers** from Overview blade of the storage account. 
 
-    ![](./Images/select-container.png)
+    ![](./Images/show-storage.png)
    
-1. Click on + Container
-
-    ![](./Images/container.png)
+1. Explore the different options of stoarge account menu below the overview option.
