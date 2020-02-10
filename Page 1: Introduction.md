@@ -10,3 +10,6 @@ Azure Storage is Microsoft's cloud storage solution for modern data storage scen
 
 ### Find the Azure Credentials on Environment Details
 
+To create the storage account, first [login to Azure Portal](https://portal.azure.com/). Find the Azure Creadetial on Environment Detrails page once you **Launch** the lab using launch lab button after signup to the lab environment.
+
+![Environment Details](./Images/environmentdetails.png)
