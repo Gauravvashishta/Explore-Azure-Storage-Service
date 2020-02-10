@@ -1,17 +1,14 @@
 # Create a storage account using Azure portal
 
-Use the Azure portal to create a storage account
+1. On the Azure portal menu or from the **Home** page, select **Create a resource**.
 
-- **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.
-- On the Azure portal menu or from the **Home** page, select **Create a resource**.
-
-    ![](create-resource.png)
+    ![](./Images/create-resource.png)
     
-- Select **Storage account** under **Azure Marketplace**.
+2. Select **Storage account** under **Azure Marketplace**.
  
-    ![](search-storage.png)
+    ![](./Images/search-storage.png)
  
- **Under PROJECT DETAILS: Provide the following values**
+**Under PROJECT DETAILS: Provide the following values**
 1. In the Subscription field, select the **subscription** in which to create the storage account
 1. In the **Resource group** field, select an existing resource group which looks like **az-011-149644**
 1. Enter a **Storage account name**. The name will be used to generate the public URL used to access the data in the account. The name must be unique across all existing storage account names in Azure. Names must be 3 to 24 characters long and can contain only lowercase letters and numbers.
@@ -24,7 +21,7 @@ Use the Azure portal to create a storage account
 
 1. Select Locally-redundant storage (LRS) for the **Replication** option. Data in Azure storage accounts are always replicated to ensure high availability - this option lets you choose how far away the replication occurs to match your durability requirements.
 
-6. Set the **Access tier** to Hot. This setting is only used for Blob storage. The **Hot Access Tier** is ideal for frequently accessed data, and the **Cool Access Tier** is better for infrequently accessed data.
+1. Set the **Access tier** to Hot. This setting is only used for Blob storage. The **Hot Access Tier** is ideal for frequently accessed data, and the **Cool Access Tier** is better for infrequently accessed data.
 
 The following screenshot shows the completed settings for the **Basics** tab. Note that the resource group, subscription, and name will have different values.
 
