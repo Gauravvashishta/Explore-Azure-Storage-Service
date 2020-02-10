@@ -30,10 +30,12 @@ It will take few minutes to deploy the storage account.
 
 1. Once storage account is provision it will show the Notification. Click the notication icon 🔔 in upper right corner and then click **Go to resource**. It will navigate to the recently created storage account.
 
-  ![](./Images/create.png)
+    ![](./Images/go-to-resource.png)
   
 1. Click the Containers from Overview blade of teh storage account. 
 
-   ![](./Images/create.png)
+    ![](./Images/select-container.png)
    
-1. Click on + Container 
+1. Click on + Container
+
+    ![](./Images/container.png)
