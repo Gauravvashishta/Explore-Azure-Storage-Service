@@ -23,7 +23,9 @@ Azure Storage is Microsoft's cloud storage solution for modern data storage scen
    ![signin](./Images/signin.png)
  
 1. You will get the ```Stay signed in?``` page, check the checkbox and then click on **Yes**.
+
    ![signindialupbox](./Images/dialupbox.png)
  
 1. You will get ```Welcome to Microsoft Azure``` popup. Click on **Maybe later**.
+
    ![Environment Details](./Images/azurewelcomepage.png)
