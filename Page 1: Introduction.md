@@ -11,23 +11,18 @@ Azure Storage is Microsoft's cloud storage solution for modern data storage scen
 ### Find Azure Credentials on Environment Details
 
 1. Once registration is accepted and Launched the Lab, It will be automatically redirected to the lab activation page. Find the Azure Credetial on Environment Details page under Azure Credentials section.
-
   ![Environment Details](./Images/environmentdetails.png)
   
 ### Login to Azure Portal
 
 1. [Login to Azure Portal](https://portal.azure.com/) using the Azure Username and Password. You can navigate to ```https://portal.azure.com/```, in this lab click on the **Azure Portal** shortcut added to the Desktop of lab virtual machine which is auto logged in on left hand side. It will take you to the Azure portal after accepting the default values of the Edge browser. 
-
   ![Environment Details](./Images/launchazureportal.png)
   
 1. Get the Azure Username and Password from Environment Details page, you can use the copy icon to copy the values. First enter the username on Signin page and click on Next button. On the next page enter the Azure Password and click on the Sign in Button.
-
  ![signin](./Images/signin.png)
  
 1. You will get the ```Stay signed in?``` page, check the checkbox and then click on **Yes**.
-
  ![signindialupbox](./Images/dialupbox.png)
  
 1. You will get ```Welcome to Microsoft Azure``` popup. Click on **Maybe later**.
-
  ![Environment Details](./Images/azurewelcomepage.png)
