@@ -8,7 +8,20 @@
  
     ![](./Images/search-storage.png)
  
-**Under PROJECT DETAILS: Provide the following values**
+3. Provide the following values for the storage account and then click on **Review + Create**
+    * Subscription : Select the existing Subscription. Leave it default if it is automatically selected.
+    * Resource group: Select the existing Resource Group which looks like **az-011-149644**.
+    * Location: Select the same location in which your lab RG ```az-011-149644``` is created.
+    * Performance: **Standard**
+    * Account Kind: **StorageV2 (general purpose v2)**
+    * Replication: **Locally-redundant storage(LRS)**
+    * Access tier: **Hot**
+    
+       ![](./Images/create-storagea.png)
+   
+
+
+
 1. In the Subscription field, select the **subscription** in which to create the storage account
 1. In the **Resource group** field, select an existing resource group which looks like **az-011-149644**
 1. Enter a **Storage account name**. The name will be used to generate the public URL used to access the data in the account. The name must be unique across all existing storage account names in Azure. Names must be 3 to 24 characters long and can contain only lowercase letters and numbers.
