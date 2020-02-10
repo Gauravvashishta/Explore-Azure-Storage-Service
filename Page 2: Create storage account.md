@@ -23,4 +23,4 @@
 
     ![](./Images/create.png)
     
-It will take a few minutes to deploy the account.
+It will take few minutes to deploy the account.
