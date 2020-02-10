@@ -11,6 +11,7 @@
 1. Provide the following values for the storage account on the **Basics** tab and then click on **Review + Create**.
     * Subscription : Select the existing Subscription. Leave it default if it is automatically selected.
     * Resource group: Select the existing Resource Group which looks like **az-011-149644**.
+    * Storage account name: **strg149644**, replace the 149644 with unique id, you can get it from your RG name. 
     * Location: Select the same location in which your lab RG ```az-011-149644``` is created.
     * Performance: **Standard**
     * Account Kind: **StorageV2 (general purpose v2)**
