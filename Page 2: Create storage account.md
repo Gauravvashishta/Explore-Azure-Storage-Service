@@ -1,4 +1,4 @@
-# Create a storage account using Azure portal
+## Create a storage account using Azure portal
 
 1. On the Azure portal menu or from the **Home** page, select **Create a resource**.
 
@@ -25,3 +25,15 @@
     ![](./Images/create.png)
     
 It will take few minutes to deploy the storage account.
+
+## Explore storage account
+
+1. Once storage account is provision it will show the Notification. Click the notication icon 🔔 and then click **Go to resource**. It will navigate to the recently created storage account.
+
+  ![](./Images/create.png)
+  
+1. Click the Containers from Overview blade of teh storage account. 
+
+   ![](./Images/create.png)
+   
+1. Click on + Container 
