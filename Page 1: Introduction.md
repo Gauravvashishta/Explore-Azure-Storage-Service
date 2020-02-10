@@ -15,7 +15,7 @@ Azure Storage is Microsoft's cloud storage solution for modern data storage scen
   
 ### Login to Azure Portal
 
-1. [Login to Azure Portal](https://portal.azure.com/) using the Azure Username and Password. You can navigate to ```https://portal.azure.com/```, in this lab click on the **Azure Portal** shortcut added to the Desktop of lab virtual machine which is auto logged in on left hand side. It will take you to the Azure portal after accepting the default values of the Edge browser. 
+1. Login to Azure Portal using the Azure Username and Password. You can navigate to ```https://portal.azure.com/```, in this lab click on the **Azure Portal** shortcut added to the Desktop of lab virtual machine which is auto logged in on left hand side. It will take you to the Azure portal after accepting the default values of the Edge browser. 
   ![Environment Details](./Images/launchazureportal.png)
   
 1. Get the Azure Username and Password from Environment Details page, you can use the copy icon to copy the values. First enter the username on Signin page and click on Next button. On the next page enter the Azure Password and click on the **Sign in**.
