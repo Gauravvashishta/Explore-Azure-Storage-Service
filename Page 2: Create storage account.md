@@ -2,24 +2,27 @@
 
 Use the Azure portal to create a storage account
 
-- **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
+- **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
-- Select **Storage account** under **Azure Marketplace**. <br/>
+
+    ![](create-resource.png)
+    
+- Select **Storage account** under **Azure Marketplace**.
  
-  <img src="images/str1.jpg"/><br/>
+    ![](search-storage.png)
  
- Under **PROJECT DETAILS:**
-- In the Subscription field, select the **subscription** in which to create the storage account
-- In the **Resource group** field, select an existing resource group or select **Create new**, and enter a name for the new resource group.
+ **Under PROJECT DETAILS: Provide the following values**
+1. In the Subscription field, select the **subscription** in which to create the storage account
+1. In the **Resource group** field, select an existing resource group which looks like **az-011-149644**
 1. Enter a **Storage account name**. The name will be used to generate the public URL used to access the data in the account. The name must be unique across all existing storage account names in Azure. Names must be 3 to 24 characters long and can contain only lowercase letters and numbers.
 
-2. In the **Location** field, select a location for the storage account, or use the default location.
+1. In the **Location** field, select a location for the storage account, or use the default location.
 
-3. Select Standard for the **Performance** option. This decides the type of disk storage used to hold the data in the Storage account.
+1. Select Standard for the **Performance** option. This decides the type of disk storage used to hold the data in the Storage account.
 
-4. Select StorageV2 (general purpose v2) for the **Account kind**. This provides access to the latest features and pricing. In particular, Blob storage accounts have more options available with this account type. You need a mix of blobs and a queue, so the Blob storage option will not work. For this application, there would be no benefit to choosing a Storage (general purpose v1) account, since that would limit the features you could access and would be unlikely to reduce the cost of your expected workload.
+1. Select StorageV2 (general purpose v2) for the **Account kind**. This provides access to the latest features and pricing. In particular, Blob storage accounts have more options available with this account type. You need a mix of blobs and a queue, so the Blob storage option will not work. For this application, there would be no benefit to choosing a Storage (general purpose v1) account, since that would limit the features you could access and would be unlikely to reduce the cost of your expected workload.
 
-5. Select Locally-redundant storage (LRS) for the **Replication** option. Data in Azure storage accounts are always replicated to ensure high availability - this option lets you choose how far away the replication occurs to match your durability requirements.
+1. Select Locally-redundant storage (LRS) for the **Replication** option. Data in Azure storage accounts are always replicated to ensure high availability - this option lets you choose how far away the replication occurs to match your durability requirements.
 
 6. Set the **Access tier** to Hot. This setting is only used for Blob storage. The **Hot Access Tier** is ideal for frequently accessed data, and the **Cool Access Tier** is better for infrequently accessed data.
 
