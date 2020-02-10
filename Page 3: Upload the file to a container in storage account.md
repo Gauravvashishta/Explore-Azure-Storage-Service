@@ -1,4 +1,4 @@
-# Create a Container and Upload file using Azure portal
+# Create a Container and Upload file
 
 To create a container in the Azure portal, follow these steps:
 
@@ -25,15 +25,20 @@ Block blobs consist of blocks of data assembled to make a blob. Most scenarios u
 To upload a block blob to your new container in the Azure portal, follow these steps:
 
 1. In the Azure portal, navigate to the container you created in the previous section.
-2. Select the container to show a list of blobs it contains. Since this container is new, it won't yet contain any blobs.
-3. Select the **Upload** button to open the upload blade.
-4. Browse your local file system to find a file to upload as a block blob.
+1. Select the container to show a list of blobs it contains. Since this container is new, it won't yet contain any blobs.
+1. Select the **Upload** button to open the upload blade.
+1. Click on the file icon to select a file from your virtual machine file system.
 
-<img src="images/str7.jpg"/><br/>
+    ![](./Images/selectfile.png)
 
-5. Optionally, expand the advanced section to define other setting such as authentication type, access tier, or virtual folder path.
-6. Select the **Upload** button to commit the upload.
-7. Upload as many blobs as you like in this way. You'll see that the new blobs are now listed within the container.
+1. Browse your local file system, navigate to following path ```C:\LabFiles\``` and then select StorageFile.txt file to upload. Now, clcik on open.
+
+    ![](./Images/fileicon.png)
+
+1. Optionally, expand the advanced section to define other setting such as authentication type, access tier, or virtual folder path.
+1. Select the **Upload** button to commit the upload.
+
+    ![](./Images/clickupload.png)
 
 ## Download a block blob
 
