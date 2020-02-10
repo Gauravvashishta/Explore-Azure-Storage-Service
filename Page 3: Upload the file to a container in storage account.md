@@ -44,6 +44,15 @@ To upload a block blob to your new container in the Azure portal, follow these s
 
 You can download a block blob to display in the browser or save to your local file system. To download a block blob, follow these steps:
 
-1. Navigate to the list of blobs that you uploaded in the previous section.
+1. Navigate to the list of blobs that you uploaded in the previous section and select the ```StorageFile.txt``` blob.
+
+    ![](./Images/selectblob.png)
+
 2. Right-click the blob you want to download, and select **Download.**
+
+    ![](./Images/downloadblob.png)
+    
+ 
+
+
 
